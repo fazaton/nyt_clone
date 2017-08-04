@@ -1,0 +1,123 @@
+/* The navigation bar */
+#topnav {
+	background-color: white;
+	overflow: hidden;
+	padding-left: 20px;
+	position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+#navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Main content */
+#main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+#text {
+	width: 45%;
+	
+}
+
+.plain-text {
+	margin-left: 100px;
+}
+
+#framed-text {	
+}
+
+#box {
+	position: relative;
+}
+
+#box img {
+	width: 175%;
+	height: auto;
+}
+
+#box1 {
+	position: absolute;
+	top: 150px;
+	left: 0;
+	width: 38%;
+}
+
+#box2 {
+	position: absolute;
+	top: 150px;
+	left: 250px;
+	width: 38%;
+}
+
+#box3 {
+	position: absolute;
+	top: 150px;
+	left: 500px;
+	width: 42%;
+}
+
+#box4 {
+	position: absolute;
+	top: 150px;
+	left: 770px;
+	width: 42%;
+}
+
+#box5 {
+	position: absolute;
+	top: 430px;
+	left: 0;
+	width: 38%;
+}
+
+#box6 {
+	position: absolute;
+	top: 430px;
+	left: 250px;
+	width: 38%;
+}
+
+#box7 {
+	position: absolute;
+	top: 430px;
+	left: 500px;
+	width: 42%;
+}
+
+#box8 {
+	position: absolute;
+	top: 430px;
+	left: 770px;
+	width: 42%;
+}
+
+h6 {
+	color: grey;
+}
+
+#sign-up {
+	display: block;
+    border-top: 1px solid #e2e2e2;
+    margin: 7px 30px 15px 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #e2e2e2;
+    float: left;  
+    width: 300px;
+}
+
+#photo {
+	margin-left: 40px;
+}
+
+#headline {
+	border-top: 1px solid black;
+}
