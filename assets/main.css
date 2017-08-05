@@ -143,9 +143,6 @@ h6 {
     text-align: center;
 }
 
-#links {
-	
-}
 
 ul {
     list-style-type: none;
@@ -153,11 +150,25 @@ ul {
     padding: 0;
 }
 
-li {
-    float: left;
-}
-
 li a {
     color: white;
     text-decoration: none;
+    width: 10%;
+}
+
+#fline {
+	margin-left: 100px;
+	border-top: 1px solid grey;
+}
+#flist {
+	margin-left: 100px;
+}
+
+.float {
+	float: left;
+}
+
+.ul-left {
+	float:left;
+	margin-right: 30px;
 }
