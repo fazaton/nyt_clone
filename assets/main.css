@@ -6,6 +6,7 @@
 	position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    border-bottom: 1px solid grey;
 }
 
 /* Links inside the navbar */
@@ -119,5 +120,44 @@ h6 {
 }
 
 #headline {
-	border-top: 1px solid black;
+	border-top: 1px solid grey;
+	margin-top: 10px;
+}
+
+#logo {
+	margin-left: 120px;
+}
+
+#subscribe {
+	margin-left: 100px;
+}
+
+#second_navbar {
+	width: 100%;
+	height: 100px;
+	margin-top: 50px;
+}
+
+#second_navbar a {
+    color: black;
+    text-align: center;
+}
+
+#links {
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
 }
